@@ -1,0 +1,57 @@
+body{
+    background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.content{
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+h1{
+    margin: 3rem auto;
+    text-shadow: 0 0 0.5rem black;
+    font-size: 2.6rem;
+}
+
+.music{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+}
+
+.key{
+    border: 0.5rem solid black;
+    width: 5vw;
+    height: 8vh;
+    text-align: center;
+    transition: all 0.7sec ease;
+    text-shadow: 0 0 0.5rem black;
+    /* flex-grow: 1;
+    flex-shrink: 1; */
+    
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd{
+    font-size: 32px;
+    display: block; 
+}
+
+.sound{
+    color: #ffc600;
+}

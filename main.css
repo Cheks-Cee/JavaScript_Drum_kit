@@ -1,6 +1,7 @@
 body{
     background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
     background-size: cover;
+    background-repeat: no-repeat;
     color: white;
     display: flex;
     justify-content: center;
@@ -9,7 +10,7 @@ body{
 
 .content{
     width: 100vw;
-    height: 95vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,9 +18,17 @@ body{
 }
 
 h1{
+    
+    font-size: 2.6rem;
+}
+
+p{
+    font-size: 1.5rem;
+}
+.title{
+    text-align: center;
     margin: 3rem auto;
     text-shadow: 0 0 0.5rem black;
-    font-size: 2.6rem;
 }
 
 .music{
@@ -34,7 +43,7 @@ h1{
     width: 5vw;
     height: 8vh;
     text-align: center;
-    transition: all 0.7sec ease;
+    transition: all .07s ease;
     text-shadow: 0 0 0.5rem black;
     /* flex-grow: 1;
     flex-shrink: 1; */
